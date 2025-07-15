@@ -1,0 +1,10 @@
+file_format: "1"
+id: pedals
+name: Pedals
+type: shield
+url: https://github.com/clau0086/pedals/
+requires: [pro_micro]
+exposes: GPIO
+features:
+  - keys
+siblings:
