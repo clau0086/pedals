@@ -6,12 +6,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
+    - name: pedals
+      url-base: https://github.com/clau0086/pedals
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
     - name: pedals
-      remote: https://github.com/clau0086/pedals
+      remote: pedals
       revision: main
   self:
     path: config
