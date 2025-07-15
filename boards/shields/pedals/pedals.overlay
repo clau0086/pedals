@@ -1,4 +1,6 @@
-    kscan0: kscan {
+#include <dt-bindings/zmk/matrix_transform.h>
+
+kscan0: kscan {
         compatible = "zmk,kscan-gpio-direct";
         wakeup-source;
         input-gpios
@@ -6,8 +8,6 @@
             , <&pro_micro 24 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
     };
-
-#include <dt-bindings/zmk/matrix_transform.h> // Put this with the other includes at the top of your overlay
 
 / {
     default_transform: keymap_transform0 {
