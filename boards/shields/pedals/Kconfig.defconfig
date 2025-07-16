@@ -1,7 +1,7 @@
 if SHIELD_PEDALS
 
-# Name must be less than 16 characters long!
 config PEDALS
+    string
     default "Pedals"
 
 endif
