@@ -1,8 +1,9 @@
 file_format: "1"
 id: pedals
-name: Pedals
+name: pedals
 type: shield
-url: https://github.com/clau0086/pedals/
+// url: https://github.com/clau0086/pedals/
+url: https://github.com/clau0086
 requires: [pro_micro]
 exposes: GPIO
 features:
