@@ -10,8 +10,7 @@
             // -------------------------------------
             // |     Z     |     M     |
             bindings = <
-            //    &kp SPACE    &kp ENTER
-                  &bt BT_CLR_ALL &kp M
+                &kp SPACE    &kp ENTER
             >;
         };
     };
