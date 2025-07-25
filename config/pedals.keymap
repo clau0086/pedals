@@ -11,7 +11,7 @@
             // |     Z     |     M     |
             bindings = <
 //                &kp SPACE    &kp ENTER
-                &kp S    &kp ENTER
+                &kp SPACE    &kp S
             >;
         };
     };
